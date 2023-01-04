@@ -1,0 +1,81 @@
+#contain{
+    width: 400px;
+    height: 600px;
+    background-color:#000000FF;
+    border-radius: 10px;
+    border:  5px solid  #5F4B8BFF;
+    padding: 20px;
+}
+#head{
+    height: 170px;
+}
+#head h1{
+    color: #fff;
+    text-align: center;
+}
+#head p{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    text-align: start;
+    padding: 0 30px;
+}
+#head input{
+    padding: 10px;
+    background-color: #5F4B8BFF;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #000;
+    width: 75%;
+}
+#head input:hover{
+    background-color:  rgb(145, 113, 214);
+}
+#head button{
+    padding: 10px;
+    background-color: #5F4B8BFF;
+    border: 1px solid #000;
+    border-radius: 0 10px 10px 0;
+}
+#head button:hover{
+    background-color: rgb(145, 113, 214);
+}
+
+/* section two */
+#list>div{
+    height: 350px;
+    overflow: scroll;
+    scroll-margin-bottom: no;
+}
+#list h1 {
+    color: #fff;
+    text-align: center;
+    border-bottom: 3px solid #5F4B8BFF ;
+}
+#list>div>div {
+    color: #000;
+    background-color:  #5F4B8BFF;
+    padding: 10px;
+    display: flex;
+    margin: 10px 0;
+}
+#list>div .listItem {
+    border: none;
+    margin: 0;
+    width: 100%;
+    background-color:  #5F4B8BFF;
+}
+::placeholder{
+    color: #000;
+}
+#list>div>div{
+    align-self: flex-end;
+}
+#list div i{
+    margin: 5px;
+}
+#list>div>div i:hover{
+
+    border-radius: 4px;
+    background-color:   rgb(145, 113, 214);
+}
